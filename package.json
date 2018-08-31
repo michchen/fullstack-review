@@ -4,8 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "prettier": "^1.14.2",
+    "webpack-cli": "^3.1.0"
+  }
 }
